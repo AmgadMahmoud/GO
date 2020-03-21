@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:windowCloseOnTouchOutside="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <CheckBox
+                android:id="@+id/art"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Art" />
+
+            <CheckBox
+                android:id="@+id/daytime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day Time" />
+
+            <CheckBox
+                android:id="@+id/education_learning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Education and Learning" />
+
+            <CheckBox
+                android:id="@+id/freebies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Freebies" />
+
+            <CheckBox
+                android:id="@+id/hangouts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hangouts" />
+
+            <CheckBox
+                android:id="@+id/movies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movies" />
+
+            <CheckBox
+                android:id="@+id/music_concerts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Music and Concerts" />
+
+            <CheckBox
+                android:id="@+id/nighttime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Night Time" />
+
+            <CheckBox
+                android:id="@+id/sports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sports" />
+
+            <CheckBox
+                android:id="@+id/vacation_travel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacation and Travels" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="-24dp"
+                android:paddingRight="-24dp"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:id="@+id/dialogButtonCANCEL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@drawable/custom_bg"
+                    android:clickable="true"
+                    android:minWidth="64dp"
+                    android:padding="8dp"
+                    android:text="CANCEL"
+                    android:textAlignment="center"
+                    android:textColor="@color/accentColor" />
+
+                <TextView
+                    android:id="@+id/dialogButtonOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/custom_bg"
+                    android:clickable="true"
+                    android:minWidth="64dp"
+                    android:padding="8dp"
+                    android:text="OK"
+                    android:textAlignment="center"
+                    android:textColor="@color/accentColor" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

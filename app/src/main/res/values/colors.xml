@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#F44336</color>
+    <color name="primaryColorDark">#D32F2F</color>
+    <color name="accentColor">#03A9F4</color>
+    <color name="accentColorDark">#01579B</color>
+    <color name="colorHighlight">#B6B6B6</color>
+    <color name="lightGrey">#1f000000</color>
+
+    <!--<color name="ColorPrimary">#00897B</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+    <color name="tabsScrollColor">#004D40</color>-->
+    <color name="tabsScrollColor">#B71C1C</color>
+
+</resources>

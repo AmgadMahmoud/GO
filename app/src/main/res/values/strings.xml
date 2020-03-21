@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GO</string>
+    <string name="title_activity_main">Home</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_search">Search</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_login">Login</string>
+    <string name="facebook_app_id">1441012922883586</string>
+    <string name="google_api_key">AIzaSyDlQm__FW4lHw4Wq8yFafqWBiEBZI5HObw</string>
+    <string name="title_activity_event">Event</string>
+    <string name="eventpicture">Event description dummy</string>
+    <string name="title">Title dummy</string>
+    <string name="location">Location dummy</string>
+    <string name="date">03-01-1993</string>
+    <string name="time">04:00 AM</string>
+    <string name="title_activity_map">Nearby</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="fpw"><u>forgot password?</u></string>
+    <string name="title_activity_register">Register</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="title_activity_activity_profile">Profile</string>
+    <string name="title_activity_create_event">Create Event</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_profile_edit">Profile</string>
+    <string name="title_activity_top_test">TopTest</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search Query..</string>
+</resources>
